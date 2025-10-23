@@ -55,3 +55,289 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [01:08:03.673] Browser WARN    Image with src "http://localhost:3000/assets/icons/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
 [01:14:14.860] Server  LOG      ✓ Compiled in 22ms
+[01:57:45.583] Server  LOG      ✓ Compiled in 17ms
+[01:57:46.100] Browser ERROR   ./lib/constants.ts:6:13
+Parsing ecmascript source code failed
+  4 |     { href: "/watchlist", label: "Watchlist" },
+  5 | ]
+> 6 | export const 
+    |             ^
+
+Unexpected token `<eof>`. Expected yield, an identifier, [ or {
+
+Import traces:
+  Client Component Browser:
+    ./lib/constants.ts [Client Component Browser]
+    ./components/NavItems.tsx [Client Component Browser]
+    ./components/NavItems.tsx [Server Component]
+    ./components/Header.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/constants.ts [Client Component SSR]
+    ./components/NavItems.tsx [Client Component SSR]
+    ./components/NavItems.tsx [Server Component]
+    ./components/Header.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+[01:57:46.101] Browser ERROR   ./lib/constants.ts:6:13
+Parsing ecmascript source code failed
+  4 |     { href: "/watchlist", label: "Watchlist" },
+  5 | ]
+> 6 | export const 
+    |             ^
+
+Unexpected token `<eof>`. Expected yield, an identifier, [ or {
+
+Import traces:
+  Client Component Browser:
+    ./lib/constants.ts [Client Component Browser]
+    ./components/NavItems.tsx [Client Component Browser]
+    ./components/NavItems.tsx [Server Component]
+    ./components/Header.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/constants.ts [Client Component SSR]
+    ./components/NavItems.tsx [Client Component SSR]
+    ./components/NavItems.tsx [Server Component]
+    ./components/Header.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+[01:59:30.273] Server  LOG      ✓ Compiled in 36ms
+[03:54:42.034] Server  LOG      ✓ Compiled in 37ms
+[03:54:43.093] Browser ERROR   ./app/(root)/page.tsx:14:13
+Parsing ecmascript source code failed
+  12 |                     scriptUrl={}
+  13 |                 />
+> 14 |             </div>
+     |             ^
+  15 |         </section>
+  16 |         </div>
+  17 |
+
+Expression expected
+[03:54:43.093] Browser ERROR   ./app/(root)/page.tsx:14:14
+Parsing ecmascript source code failed
+  12 |                     scriptUrl={}
+  13 |                 />
+> 14 |             </div>
+     |              ^^^^^
+  15 |         </section>
+  16 |         </div>
+  17 |
+
+Unterminated regexp literal
+[03:54:43.097] Browser ERROR   ./app/(root)/page.tsx:14:13
+Parsing ecmascript source code failed
+  12 |                     scriptUrl={}
+  13 |                 />
+> 14 |             </div>
+     |             ^
+  15 |         </section>
+  16 |         </div>
+  17 |
+
+Expression expected
+[03:54:43.097] Browser ERROR   ./app/(root)/page.tsx:14:14
+Parsing ecmascript source code failed
+  12 |                     scriptUrl={}
+  13 |                 />
+> 14 |             </div>
+     |              ^^^^^
+  15 |         </section>
+  16 |         </div>
+  17 |
+
+Unterminated regexp literal
+[03:58:48.717] Server  LOG      ✓ Compiled in 64ms
+[03:59:34.926] Browser ERROR   Widget settings parse error: SyntaxError: "undefined" is not valid JSON
+[03:59:34.926] Browser ERROR   Invalid settings provided, fall back to defaults
+[03:59:35.093] Browser ERROR   Widget settings parse error: SyntaxError: "undefined" is not valid JSON
+[03:59:35.093] Browser ERROR   Invalid settings provided, fall back to defaults
+[04:00:02.411] Server  LOG      ✓ Compiled in 24ms
+[04:01:27.979] Server  LOG      ✓ Compiled in 22ms
+[04:02:13.196] Server  LOG      ✓ Compiled in 17ms
+[04:02:14.094] Browser ERROR   ./components/TradingViewWidget.tsx:21:25
+Parsing ecmascript source code failed
+  19 |     return (
+  20 |         <div className="w-full">
+> 21 |             {title && ()}
+     |                         ^
+  22 |             <div className="tradingview-widget-container" ref={containerRef} style={{height: "100%", width: "100%"}}>
+  23 |                 <div className="tradingview-widget-container__widget"
+  24 |                      style={{height: "calc(100% - 32px)", width: "100%"}}></div>
+
+Expected '</', got '}'
+
+Import trace:
+  Server Component:
+    ./components/TradingViewWidget.tsx
+    ./app/(root)/page.tsx
+[04:02:14.095] Browser ERROR   ./components/TradingViewWidget.tsx:21:25
+Parsing ecmascript source code failed
+  19 |     return (
+  20 |         <div className="w-full">
+> 21 |             {title && ()}
+     |                         ^
+  22 |             <div className="tradingview-widget-container" ref={containerRef} style={{height: "100%", width: "100%"}}>
+  23 |                 <div className="tradingview-widget-container__widget"
+  24 |                      style={{height: "calc(100% - 32px)", width: "100%"}}></div>
+
+Expected '</', got '}'
+
+Import trace:
+  Server Component:
+    ./components/TradingViewWidget.tsx
+    ./app/(root)/page.tsx
+[04:02:34.093] Browser ERROR   ./components/TradingViewWidget.tsx:21:39
+Parsing ecmascript source code failed
+  19 |     return (
+  20 |         <div className="w-full">
+> 21 |             {title && <h3 className=""}>{title}</h3>}
+     |                                       ^
+  22 |             <div className="tradingview-widget-container" ref={containerRef} style={{height: "100%", width: "100%"}}>
+  23 |                 <div className="tradingview-widget-container__widget"
+  24 |                      style={{height: "calc(100% - 32px)", width: "100%"}}></div>
+
+Expected '</', got '}'
+
+Import trace:
+  Server Component:
+    ./components/TradingViewWidget.tsx
+    ./app/(root)/page.tsx
+[04:02:34.093] Browser ERROR   ./components/TradingViewWidget.tsx:21:39
+Parsing ecmascript source code failed
+  19 |     return (
+  20 |         <div className="w-full">
+> 21 |             {title && <h3 className=""}>{title}</h3>}
+     |                                       ^
+  22 |             <div className="tradingview-widget-container" ref={containerRef} style={{height: "100%", width: "100%"}}>
+  23 |                 <div className="tradingview-widget-container__widget"
+  24 |                      style={{height: "calc(100% - 32px)", width: "100%"}}></div>
+
+Expected '</', got '}'
+
+Import trace:
+  Server Component:
+    ./components/TradingViewWidget.tsx
+    ./app/(root)/page.tsx
+[04:03:16.092] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:03:16.094] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:03:41.357] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:03:41.476] Browser WARN    Image with src "http://localhost:3000/assets/icons/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:05:02.317] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:05:02.403] Server  LOG      ✓ Compiled in 27ms
+[04:05:02.453] Server  ERROR    ⨯ ReferenceError: cn is not defined
+[04:05:02.537] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:05:03.094] Browser ERROR   uncaughtError: ReferenceError: cn is not defined
+[04:05:03.094] Browser ERROR   uncaughtError: ReferenceError: cn is not defined
+[04:05:29.664] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:05:29.665] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:05:29.725] Server  LOG      ✓ Compiled in 31ms
+[04:05:29.822] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:05:29.925] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:05:30.093] Browser WARN    Image with src "http://localhost:3000/assets/icons/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:05:30.093] Browser WARN    Image with src "http://localhost:3000/assets/icons/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:05:53.882] Server  LOG      ✓ Compiled in 30ms
+[04:06:18.094] Browser ERROR   ./app/(root)/page.tsx:18:13
+Parsing ecmascript source code failed
+  16 |                     height={}
+  17 |                 />
+> 18 |             </div>
+     |             ^
+  19 |         </section>
+  20 |         </div>
+  21 |
+
+Expression expected
+[04:06:18.094] Browser ERROR   ./app/(root)/page.tsx:18:14
+Parsing ecmascript source code failed
+  16 |                     height={}
+  17 |                 />
+> 18 |             </div>
+     |              ^^^^^
+  19 |         </section>
+  20 |         </div>
+  21 |
+
+Unterminated regexp literal
+[04:06:18.094] Browser ERROR   ./app/(root)/page.tsx:18:13
+Parsing ecmascript source code failed
+  16 |                     height={}
+  17 |                 />
+> 18 |             </div>
+     |             ^
+  19 |         </section>
+  20 |         </div>
+  21 |
+
+Expression expected
+[04:06:18.094] Browser ERROR   ./app/(root)/page.tsx:18:14
+Parsing ecmascript source code failed
+  16 |                     height={}
+  17 |                 />
+> 18 |             </div>
+     |              ^^^^^
+  19 |         </section>
+  20 |         </div>
+  21 |
+
+Unterminated regexp literal
+[04:07:03.654] Server  LOG      ✓ Compiled in 15ms
+[04:07:03.716] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:07:04.092] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:07:47.246] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:07:47.249] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:07:47.330] Server  LOG      ✓ Compiled in 21ms
+[04:07:47.473] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:07:47.496] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:07:48.092] Browser WARN    Image with src "http://localhost:3000/assets/icons/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:07:48.094] Browser WARN    Image with src "http://localhost:3000/assets/icons/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:08:08.970] Server  LOG      ✓ Compiled in 21ms
+[04:08:54.096] Browser ERROR   ./app/(root)/page.tsx:19:31
+Parsing ecmascript source code failed
+  17 |                 />
+  18 |             </div>
+> 19 |             <div className={}></div>
+     |                               ^
+  20 |         </section>
+  21 |         </div>
+  22 |
+
+Expression expected
+[04:08:54.097] Browser ERROR   ./app/(root)/page.tsx:19:32
+Parsing ecmascript source code failed
+  17 |                 />
+  18 |             </div>
+> 19 |             <div className={}></div>
+     |                                ^^^^^
+  20 |         </section>
+  21 |         </div>
+  22 |
+
+Unterminated regexp literal
+[04:08:54.100] Browser ERROR   ./app/(root)/page.tsx:19:31
+Parsing ecmascript source code failed
+  17 |                 />
+  18 |             </div>
+> 19 |             <div className={}></div>
+     |                               ^
+  20 |         </section>
+  21 |         </div>
+  22 |
+
+Expression expected
+[04:08:54.100] Browser ERROR   ./app/(root)/page.tsx:19:32
+Parsing ecmascript source code failed
+  17 |                 />
+  18 |             </div>
+> 19 |             <div className={}></div>
+     |                                ^^^^^
+  20 |         </section>
+  21 |         </div>
+  22 |
+
+Unterminated regexp literal
+[04:23:35.829] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:23:37.346] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:23:37.475] Browser WARN    Image with src "http://localhost:3000/assets/icons/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:27:44.091] Server  LOG      ✓ Compiled in 19ms
