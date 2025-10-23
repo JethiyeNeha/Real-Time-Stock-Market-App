@@ -1,2 +1,57 @@
-[00:00:00.650] Server  LOG      ✓ Ready in 481ms
-[00:00:03.632] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:00.511] Server  LOG      ✓ Ready in 360ms
+[00:00:14.683] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:14.800] Browser WARN    Image with src "/assets/icons/logo.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:14.800] Browser WARN    Image with src "http://localhost:3000/assets/icons/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:29.972] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:30.091] Browser WARN    Image with src "http://localhost:3000/assets/icons/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:30.091] Browser WARN    Image with src "/assets/icons/logo.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:01:27.438] Server  LOG      ✓ Compiled in 61ms
+[00:02:23.431] Server  LOG      ✓ Compiled in 34ms
+[00:02:50.180] Server  LOG      ✓ Compiled in 29ms
+[00:03:35.876] Server  LOG      ✓ Compiled in 27ms
+[00:03:54.845] Server  LOG      ✓ Compiled in 26ms
+[00:04:48.562] Server  LOG      ✓ Compiled in 32ms
+[00:05:18.148] Server  LOG      ✓ Compiled in 37ms
+[00:05:28.651] Server  LOG      ✓ Compiled in 28ms
+[00:05:53.059] Server  LOG      ✓ Compiled in 28ms
+[00:06:01.868] Server  LOG      ✓ Compiled in 34ms
+[00:06:30.369] Server  LOG      ✓ Compiled in 30ms
+[00:38:31.420] Server  LOG      ✓ Compiled in 50ms
+[00:38:40.805] Server  LOG      ✓ Compiled in 18ms
+[00:39:00.125] Server  LOG      ✓ Compiled in 30ms
+[00:39:48.373] Server  LOG      ✓ Compiled in 21ms
+[00:40:20.681] Server  LOG      ✓ Compiled in 33ms
+[00:40:54.974] Server  LOG      ✓ Compiled in 26ms
+[00:41:35.315] Server  LOG      ✓ Compiled in 49ms
+[00:42:00.696] Server  LOG      ✓ Compiled in 39ms
+[00:48:25.162] Server  LOG      ✓ Compiled in 30ms
+[00:49:17.280] Server  LOG      ✓ Compiled in 57ms
+[00:49:31.518] Server  LOG      ✓ Compiled in 23ms
+[00:49:52.516] Server  LOG      ✓ Compiled in 31ms
+[01:03:16.279] Server  LOG      ✓ Compiled in 39ms
+[01:03:25.855] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:03:25.980] Browser WARN    Image with src "/assets/icons/logo.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:03:25.980] Browser WARN    Image with src "http://localhost:3000/assets/icons/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:03:35.030] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:03:36.920] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:03:37.045] Browser WARN    Image with src "/assets/icons/logo.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:03:37.045] Browser WARN    Image with src "http://localhost:3000/assets/icons/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:23.401] Server  LOG      ✓ Compiled in 23ms
+[01:05:28.465] Server  LOG      ✓ Compiled in 32ms
+[01:05:30.713] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:30.838] Browser WARN    Image with src "/assets/icons/logo.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:05:30.838] Browser WARN    Image with src "http://localhost:3000/assets/icons/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:07:19.336] Server  LOG      ✓ Compiled in 39ms
+[01:07:35.643] Server  LOG      ✓ Compiled in 46ms
+[01:07:44.201] Server  LOG      ✓ Compiled in 38ms
+[01:08:01.916] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:08:03.546] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:08:03.673] Browser WARN    Image with src "/assets/icons/logo.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:08:03.673] Browser WARN    Image with src "http://localhost:3000/assets/icons/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:14:14.860] Server  LOG      ✓ Compiled in 22ms

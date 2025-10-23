@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/nehajethiye/Desktop/neha-git-personal/Real-Time-Stock-Market-App/components/Header.tsx"],"sourcesContent":["import React from 'react'\n\nconst Header = () => {\n    return (\n        <header >Header</header>\n    )\n}\nexport default Header\n"],"names":[],"mappings":";;;;;;AAEA,MAAM,SAAS;IACX,qBACI,8OAAC;kBAAQ;;;;;;AAEjB;uCACe","debugId":null}},
+    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":["file:///Users/nehajethiye/Desktop/neha-git-personal/Real-Time-Stock-Market-App/app/%28root%29/layout.tsx"],"sourcesContent":["import React from 'react'\nimport Header from \"@/components/Header\";\n\nconst Layout = ({children}: {children:React.ReactNode}) => {\n    return (\n  <main className=\"min-h-screen text-gray-400\">\n      <Header />\n      <div className=\"container py-10\">\n          {children}\n      </div>\n  </main>\n\n\n    )\n}\nexport default Layout\n"],"names":[],"mappings":";;;;;AACA;;;AAEA,MAAM,SAAS,CAAC,EAAC,QAAQ,EAA6B;IAClD,qBACF,8OAAC;QAAK,WAAU;;0BACZ,8OAAC,gIAAM;;;;;0BACP,8OAAC;gBAAI,WAAU;0BACV;;;;;;;;;;;;AAMX;uCACe","debugId":null}}]
+}
