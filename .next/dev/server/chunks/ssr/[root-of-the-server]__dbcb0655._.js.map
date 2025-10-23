@@ -1,6 +1,5 @@
 {
   "version": 3,
   "sources": [],
-  "sections": [
-    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///Users/nehajethiye/Desktop/neha-git-personal/Real-Time-Stock-Market-App/app/%28root%29/page.tsx"],"sourcesContent":["import React from 'react'\nimport {Button} from \"@/components/ui/button\";\n\nconst Home = () => {\n    return (\n        <div className=\"flex min-h-screen home-wrapper\">\n           Home\n        </div>\n\n    )\n}\nexport default Home\n\n"],"names":[],"mappings":";;;;;;AAGA,MAAM,OAAO;IACT,qBACI,8OAAC;QAAI,WAAU;kBAAiC;;;;;;AAKxD;uCACe","debugId":null}}]
+  "sections": []
 }
