@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📈 Real Time Stock Market App
 
-## Getting Started
+A **real-time stock tracking platform** that delivers **personalized investment insights**, **daily market news**, and **automated email updates** — built with **Next.js**, **Inngest**, and **NodeMailer**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🔐 **User Authentication** – Secure signup and login with `better-auth`.
+- 📧 **Automated Email Notifications** – Sends a personalized welcome email on registration.
+- 📰 **Daily News Summary** – Curated financial news based on your investment goals, preferred industries, and risk tolerance.
+- 📊 **Real-Time Market Data** – Stay up to date with live stock prices and trends.
+- ⚙️ **Serverless Automation** – Uses `Inngest` for scheduled tasks and background processes.
+- 💅 **Modern UI** – Clean and responsive design built with `TailwindCSS` and `ShadCN`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧠 What I Explored
 
-## Learn More
+During this project, I deepened my understanding of:
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js App Router** and API route handling  
+- **Inngest** for background job scheduling  
+- **NodeMailer** for sending automated and dynamic emails  
+- **Better Auth** for secure authentication flows  
+- **MongoDB Atlas** for cloud-hosted database management  
+- **TailwindCSS + ShadCN** for rapid, elegant UI design  
+- **WebStorm** for efficient development and debugging  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
 
-## Deploy on Vercel
+| Category | Technology |
+|-----------|-------------|
+| Frontend | Next.js, TailwindCSS, ShadCN |
+| Backend | Inngest, NodeMailer, Better Auth |
+| Database | MongoDB Atlas |
+| Deployment | Vercel |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🖼️ Screenshots
+
+Here’s a glimpse of the app in action 👇  
+
+### 🏠 Dashboard  
+![Dashboard](assets/screenshots/signalists.png)
+
+> Displays live stock data, daily summaries, and personalized insights.
+
+### 🔐 Authentication  
+![Login](assets/screenshots/login.png)  
+![Signup](assets/screenshots/signUp.png)
+
+> Secure login and signup pages with welcome email integration.
+
+### 📰 Daily News Summary  
+![News Summary](assets/screenshots/stocks.png)
+
+> Personalized daily news feed tailored to user investment preferences.
+
+---
+
+## 🔗 Links
+
+- 🌐 **Live App:** [Signalist Stock Tracker](https://signalist-stock-tracker-app-nu.vercel.app/)  
