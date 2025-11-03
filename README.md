@@ -45,19 +45,19 @@ During this project, I deepened my understanding of:
 
 Here’s a glimpse of the app in action 👇  
 
-### 🏠 Dashboard  
-![Dashboard](assets/screenshots/signalists.png)
+### Dashboard  
+![Dashboard](public/assets/screenshots/signalists.png)
 
 > Displays live stock data, daily summaries, and personalized insights.
 
 ### 🔐 Authentication  
-![Login](assets/screenshots/login.png)  
-![Signup](assets/screenshots/signUp.png)
+![Signup](public/assets/screenshots/signUp.png)
+![Login](public/assets/screenshots/login.png) 
 
 > Secure login and signup pages with welcome email integration.
 
 ### 📰 Daily News Summary  
-![News Summary](assets/screenshots/stocks.png)
+![News Summary](public/assets/screenshots/stocks.png)
 
 > Personalized daily news feed tailored to user investment preferences.
 
