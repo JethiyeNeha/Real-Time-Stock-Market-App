@@ -35,8 +35,11 @@ During this project, I deepened my understanding of:
 |-----------|-------------|
 | Frontend | Next.js, TailwindCSS, ShadCN |
 | Backend | Inngest, NodeMailer, Better Auth |
-| Database | MongoDB Atlas |
+| Database | MongoDB Atlas (Mongoose ORM) |
+| Real-time Data | TradingView Widgets, Finnhub API |
+| AI Integration | Google Gemini AI (for personalized content) |
 | Deployment | Vercel |
+| Development Tools | WebStorm |
 
 ---
 ---
