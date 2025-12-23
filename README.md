@@ -4,6 +4,34 @@ A **real-time stock tracking platform** that delivers **personalized investment 
 
 ---
 
+## Links
+
+- **Live App:** [Signalist Stock Tracker](https://signalist-stock-tracker-app-nu.vercel.app/)
+
+---
+
+## Preview
+
+Here’s a glimpse of the app in action   
+
+### Dashboard  
+![Dashboard](public/assets/screenshots/signalists.png)
+
+> Displays live stock data, daily summaries, and personalized insights.
+
+### Authentication  
+![Signup](public/assets/screenshots/signUp.png)
+![Login](public/assets/screenshots/login.png) 
+
+> Secure login and signup pages with welcome email integration.
+
+### Daily News Summary  
+![News Summary](public/assets/screenshots/stocks.png)
+
+> Personalized daily news feed tailored to user investment preferences.
+
+---
+
 ## Features
 
 - **User Authentication** – Secure signup and login with `better-auth`.
@@ -41,31 +69,4 @@ During this project, I deepened my understanding of:
 | Deployment | Vercel |
 | Development Tools | WebStorm |
 
----
----
 
-## Screenshots
-
-Here’s a glimpse of the app in action   
-
-### Dashboard  
-![Dashboard](public/assets/screenshots/signalists.png)
-
-> Displays live stock data, daily summaries, and personalized insights.
-
-### Authentication  
-![Signup](public/assets/screenshots/signUp.png)
-![Login](public/assets/screenshots/login.png) 
-
-> Secure login and signup pages with welcome email integration.
-
-### Daily News Summary  
-![News Summary](public/assets/screenshots/stocks.png)
-
-> Personalized daily news feed tailored to user investment preferences.
-
----
-
-## Links
-
-- **Live App:** [Signalist Stock Tracker](https://signalist-stock-tracker-app-nu.vercel.app/)  
