@@ -4,18 +4,18 @@ A **real-time stock tracking platform** that delivers **personalized investment 
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔐 **User Authentication** – Secure signup and login with `better-auth`.
-- 📧 **Automated Email Notifications** – Sends a personalized welcome email on registration.
-- 📰 **Daily News Summary** – Curated financial news based on your investment goals, preferred industries, and risk tolerance.
-- 📊 **Real-Time Market Data** – Stay up to date with live stock prices and trends.
-- ⚙️ **Serverless Automation** – Uses `Inngest` for scheduled tasks and background processes.
-- 💅 **Modern UI** – Clean and responsive design built with `TailwindCSS` and `ShadCN`.
+- **User Authentication** – Secure signup and login with `better-auth`.
+- **Automated Email Notifications** – Sends a personalized welcome email on registration.
+- **Daily News Summary** – Curated financial news based on your investment goals, preferred industries, and risk tolerance.
+- **Real-Time Market Data** – Stay up to date with live stock prices and trends.
+- **Serverless Automation** – Uses `Inngest` for scheduled tasks and background processes.
+- **Modern UI** – Clean and responsive design built with `TailwindCSS` and `ShadCN`.
 
 ---
 
-## 🧠 What I Explored
+## What I Explored
 
 During this project, I deepened my understanding of:
 
@@ -29,7 +29,7 @@ During this project, I deepened my understanding of:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Technology |
 |-----------|-------------|
@@ -44,28 +44,28 @@ During this project, I deepened my understanding of:
 ---
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
-Here’s a glimpse of the app in action 👇  
+Here’s a glimpse of the app in action   
 
 ### Dashboard  
 ![Dashboard](public/assets/screenshots/signalists.png)
 
 > Displays live stock data, daily summaries, and personalized insights.
 
-### 🔐 Authentication  
+### Authentication  
 ![Signup](public/assets/screenshots/signUp.png)
 ![Login](public/assets/screenshots/login.png) 
 
 > Secure login and signup pages with welcome email integration.
 
-### 📰 Daily News Summary  
+### Daily News Summary  
 ![News Summary](public/assets/screenshots/stocks.png)
 
 > Personalized daily news feed tailored to user investment preferences.
 
 ---
 
-## 🔗 Links
+## Links
 
-- 🌐 **Live App:** [Signalist Stock Tracker](https://signalist-stock-tracker-app-nu.vercel.app/)  
+- **Live App:** [Signalist Stock Tracker](https://signalist-stock-tracker-app-nu.vercel.app/)  
